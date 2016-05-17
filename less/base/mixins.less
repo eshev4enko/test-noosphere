@@ -1,0 +1,60 @@
+/*==============================
+
+   Mixins
+
+==============================*/
+
+.font(@_weight, @_size, @_family, @_sans) {
+  font: @_weight @_size @_family, @_sans;
+}
+
+.women-position {
+  .position(absolute);
+  left: -44px;
+  bottom: -7px;
+  width: 15px;
+  height: 28px;
+  z-index: 1;
+}
+
+.man-position {
+  .position(absolute);
+  left: 7px;
+  bottom: -7px;
+  width: 15px;
+  height: 28px;
+  z-index: 1;
+}
+
+.orange-gradient {
+  background: -webkit-linear-gradient(90deg, #ffae02 0%, #ff891f 100%);
+  background: -moz-linear-gradient(90deg, #ffae02 0%, #ff891f 100%);
+  background: -o-linear-gradient(90deg, #ffae02 0%, #ff891f 100%);
+  background: -ms-linear-gradient(90deg, #ffae02 0%, #ff891f 100%);
+  background: linear-gradient(0deg, #ffae02 0%, #ff891f 100%);
+}
+
+.select-bg {
+  background: -webkit-linear-gradient(90deg, #f5fafb 0%, #e6e6e6 100%);
+  background: -moz-linear-gradient(90deg, #f5fafb 0%, #e6e6e6 100%);
+  background: -o-linear-gradient(90deg, #f5fafb 0%, #e6e6e6 100%);
+  background: -ms-linear-gradient(90deg, #f5fafb 0%, #e6e6e6 100%);
+  background: linear-gradient(0deg, #f5fafb 0%, #e6e6e6 100%);
+}
+
+.inner-right-side {
+  width: 80%;
+  .float(right);
+}
+
+.opacity(@_opacity) {
+  opacity: @_opacity;
+}
+
+.tabs-txt {
+  .font(400, 0.6em, 'Verdana', sans-serif);
+  color:  #4e4e4e;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.42);
+  text-align: center;
+  .display(block);
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'SourceSansProExtraLight';
+    src: url('../fonts/SourceSansProExtraLight.eot');
+    src: url('../fonts/SourceSansProExtraLight.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansProExtraLight.woff2') format('woff2'),
+    url('../fonts/SourceSansProExtraLight.woff') format('woff'),
+    url('../fonts/SourceSansProExtraLight.ttf') format('truetype'),
+    url('../fonts/SourceSansProExtraLight.svg#SourceSansProExtraLight') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceSansProLight';
+    src: url('../fonts/SourceSansProLight.eot');
+    src: url('../fonts/SourceSansProLight.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansProLight.woff2') format('woff2'),
+    url('../fonts/SourceSansProLight.woff') format('woff'),
+    url('../fonts/SourceSansProLight.ttf') format('truetype'),
+    url('../fonts/SourceSansProLight.svg#SourceSansProLight') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceSansProExtraLightIt';
+    src: url('../fonts/SourceSansProExtraLightIt.eot');
+    src: url('../fonts/SourceSansProExtraLightIt.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansProExtraLightIt.woff2') format('woff2'),
+    url('../fonts/SourceSansProExtraLightIt.woff') format('woff'),
+    url('../fonts/SourceSansProExtraLightIt.ttf') format('truetype'),
+    url('../fonts/SourceSansProExtraLightIt.svg#SourceSansProExtraLightIt') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceSansProLightIt';
+    src: url('../fonts/SourceSansProLightIt.eot');
+    src: url('../fonts/SourceSansProLightIt.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansProLightIt.woff2') format('woff2'),
+    url('../fonts/SourceSansProLightIt.woff') format('woff'),
+    url('../fonts/SourceSansProLightIt.ttf') format('truetype'),
+    url('../fonts/SourceSansProLightIt.svg#SourceSansProLightIt') format('svg');
+}
+
+@font-face {
+    font-family: 'TrebuchetMS';
+    src: url('../fonts/TrebuchetMS.eot');
+    src: url('../fonts/TrebuchetMS.eot') format('embedded-opentype'),
+    url('../fonts/TrebuchetMS.woff2') format('woff2'),
+    url('../fonts/TrebuchetMS.woff') format('woff'),
+    url('../fonts/TrebuchetMS.ttf') format('truetype'),
+    url('../fonts/TrebuchetMS.svg#TrebuchetMS') format('svg');
+}
